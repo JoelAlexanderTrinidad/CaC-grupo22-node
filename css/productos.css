@@ -40,7 +40,7 @@ html {
     font-size: 2rem;
 }
 
-.card {
+.card__article__container {
     background: var(--white);
     border-radius: 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px;
@@ -53,7 +53,7 @@ html {
     transition: all 0.2s ease-in-out;
 }
 
-.card:hover {
+.card__article__container:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 16px;
 }
 
@@ -78,7 +78,7 @@ html {
     margin-top: 0.5rem;
 }
 
-.cards {
+.cards__container {
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -101,7 +101,7 @@ html {
 }
 
 .card__content {
-    background-color: var(--claro);
+    background-color: var(--medio-claro);
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
@@ -154,21 +154,24 @@ html {
 /* footer */
 
 .footer {
-  background-color: var(--oscuro);
+  background-color: var(--medio-claro);
   color: #272727;
   width: 100%;
   bottom: 0;
   left: 0;
 }
 
-.footer .heading {
+.footer #heading {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2rem;
   color: #313131;
   max-width: 1010px;
   width: 90%;
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 3rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .footer .content {
@@ -197,7 +200,7 @@ html {
 
 footer {
   text-align: center;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer hr {
@@ -217,7 +220,7 @@ footer hr {
 }
 
 @media (min-width: 768px) {
-    .card {
+    .card__article__container {
         width: 40%;
     }
     .footer .content,
@@ -230,7 +233,7 @@ footer hr {
     .footer {
         position: unset;
       }
-    .card {
+    .card__article__container {
         width: 20%;
     }
 }
