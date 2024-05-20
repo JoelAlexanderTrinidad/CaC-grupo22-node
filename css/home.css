@@ -1,0 +1,90 @@
+/*** Estilos personalizados ***/
+
+/* Centrar enlaces de navegación */
+.navbar-nav {
+    margin: auto; 
+    display: flex;
+    justify-content: center; 
+}
+
+/* Fuentes */
+body {
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, button {
+    font-family: 'Prata', serif;
+}
+.navbar-brand {
+    font-family: 'Prata', serif;
+    font-size: xx-large;
+}
+
+/* Colores */
+:root {
+    --color-primario: #F0F3FA;
+    --color-secundario-1: #D5DEEF;
+    --color-secundario-2: #B1C9EF;
+    --color-botones: #395886;
+    --color-botones-oscuro: #2c456b;
+}
+body {
+    background-color: var(--color-primario);
+}
+.custom-bg{
+    background-color: var(--color-secundario-1);
+}
+
+/* Transición para links en la barra de navegación */
+.nav-link {
+    transition: color 0.3s ease; 
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--color-botones-oscuro); 
+}
+
+/* Transición y Estilos para boton */
+button, .btn-primary {
+    background-color: var(--color-botones);
+    color: white;
+    border-color: var(--color-botones);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--color-botones-oscuro);
+    border-color: var(--color-botones-oscuro);
+    transform: scale(1.05); 
+}
+
+  /* Estilos para el carrusel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.carousel-indicators button {
+    background-color: var(--color-botones);
+}
+.carousel-indicators .active {
+    background-color: var(--color-botones-oscuro);
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: var(--color-botones-oscuro);
+}
+.carousel-control-prev,
+.carousel-control-next {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Estilos para los iconos de redes sociales */
+/* footer .fab{
+    color: var(--color-botones); 
+    margin: 0 10px; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+footer .fab:hover {
+    color: var(--color-botones-oscuro); 
+    transform: scale(1.2); 
+} */
