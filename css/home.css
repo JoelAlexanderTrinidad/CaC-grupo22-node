@@ -79,7 +79,7 @@ button, .btn-primary {
 }
 
 /* Estilos para los iconos de redes sociales */
-footer .fab{
+/* footer .fab{
     color: var(--color-botones); 
     margin: 0 10px; 
     transition: color 0.3s ease, transform 0.3s ease; 
@@ -87,4 +87,4 @@ footer .fab{
 footer .fab:hover {
     color: var(--color-botones-oscuro); 
     transform: scale(1.2); 
-}
+} */
