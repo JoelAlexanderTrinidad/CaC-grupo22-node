@@ -1,0 +1,116 @@
+.rubik-uniquifier {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+  
+.prata-regular {
+      font-family: "Prata", serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.warning {
+    color:red;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f0f3fa;
+    font-family: "Prata", serif;
+}
+
+form {
+    margin: 20px auto;
+    padding: 50px 50px;
+    box-shadow: 0 0 20px #b1c9ef;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="file"],
+input[type="checkbox"]
+, textarea, select {
+    font-family: "Prata", serif;
+    padding: 17px; 
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #d5deef;
+    border: 2px solid #b1c9ef;
+    color: black; 
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color:black;
+}
+
+.form-1 {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#btn {
+    font-family: "Prata", serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    border: 2px solid #b1c9ef;
+    border-radius: 25px;
+    background-color: #d5deef;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+#btn:hover {
+    background-color: #8aaee0;
+}
+
+@media(max-width:991px) {
+
+    body {
+        padding: 30px;
+    }
+
+    form {
+        padding: 50px 30px;
+        width: 100%;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+}
+
+
+
