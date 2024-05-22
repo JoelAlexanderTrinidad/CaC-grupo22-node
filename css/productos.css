@@ -7,9 +7,9 @@
 
 }
 
-html {
+/* html {
     scroll-behavior: smooth;
-}
+} */
 
 * {
     margin: 0;
@@ -17,14 +17,14 @@ html {
     box-sizing: border-box;
 }
 
-.body_products{
+/* .body_products{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .body_products h2{
     text-align: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .body_products h3{
